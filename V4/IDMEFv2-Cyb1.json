@@ -16,7 +16,9 @@
     "IP": "172.10.5.31",
     "Name": "Core router",
     "Hostname": "core-router.example.com",
-    "Type": "Cyber",
+    "Type": [
+      "Cyber"
+    ],
     "Model": "Cisco 4532",
     "Category": [
       "NIDS"
@@ -25,7 +27,7 @@
       "Datagram"
     ],
     "Method": [
-      "signature"
+      "Signature"
     ],
     "GeoLocation": "+48.75726,+2.299528,+65.1",
     "UnLocation": "GR ATH",

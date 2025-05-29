@@ -18,7 +18,9 @@
     "IP": "172.10.5.31",
     "Name": "Camera Manager",
     "Hostname": "cctv.acme.com",
-    "Type": "Physical",
+    "Type": [
+      "Physical"
+    ],
     "Model": "Netatmo 42B",
     "Category": [
       "HAR"
@@ -29,12 +31,12 @@
     "Method": [
       "Movement"
     ],
-    "UnLocation": "US CHI", 
+    "UnLocation": "US CHI",
     "GeoLocation": "41.85368809195584,-87.62417544532445, +65.1"
   },
   "Sensor": [
     {
-    "Location": "Front Door",
+      "Location": "Front Door",
       "Name": "Infrared front camera",
       "IP": "172.10.5.34",
       "CaptureZone": "{\"type\":\"conic-zone\",\"Azimuth\":34.00,\"Elévation\":-30.00,\"Range\":600.00,\"HFOV\":200.00,\"VFOV\":20.00}"
@@ -52,16 +54,18 @@
       ],
       "Attachment": [
         "attach1"
-      ], 
+      ],
       "Name": "Unknown"
     }
   ],
   "Attachment": [
     {
-      "Name": "attach1", 
-      "FileName": "img2021011823330521.jpg", 
-      "ExternalURI": ["https://data.acme.com/img2021011823330521.jpg"], 
+      "Name": "attach1",
+      "FileName": "img2021011823330521.jpg",
+      "ExternalURI": [
+        "https://data.acme.com/img2021011823330521.jpg"
+      ],
       "ContentType": "image/jpeg"
     }
-    ]  
+  ]
 }

@@ -11,7 +11,9 @@
   "Analyzer": {
     "Name": "SIEM",
     "Hostname": "siem.acme.com",
-    "Type": "Cyber",
+    "Type": [
+      "Cyber"
+    ],
     "Model": "Concerto SIEM 5.2",
     "Category": [
       "SIEM",
